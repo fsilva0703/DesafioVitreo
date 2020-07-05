@@ -21,21 +21,16 @@ Para executar o projeto, será necessário seguir os procedimentos abaixo:
 
 Somente fazer um clone do repositório https://github.com/fsilva0703/DesafioVitreo/ e já com o projeto aberto no Visual Studio, atualizar alguns componentes via Nuget caso necessário.
 
-Say what the step will be
+Por exemplo:
 
 ```
-Give the example
+Syncfusion ListView
+Syncfusion CardView
+Plugin Multilingual
+NewtonsoftJson
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
+## Testes Unitários
 
 Existe um projeto de teste unitário chamado DesafioVitreo.UnitTest, este faz o teste dos 3 métodos executados no aplicativo.
 
