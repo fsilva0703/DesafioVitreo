@@ -7,7 +7,12 @@ C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Deb
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Microsoft.Extensions.Options.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Microsoft.Extensions.Primitives.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Plugin.Multilingual.Abstractions.dll
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Plugin.Multilingual.Abstractions.pdb
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Plugin.Multilingual.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Licensing.dll
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Cards.XForms.dll
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Cards.XForms.iOS.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Core.XForms.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Core.XForms.iOS.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.DataSource.Portable.dll
@@ -64,6 +69,7 @@ C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Deb
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\DesafioVitreo.Domain.pdb
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\DesafioVitreo.pdb
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\pt-BR\DesafioVitreo.resources.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
@@ -76,9 +82,3 @@ C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Deb
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Debug\DesafioVitreo.iOS.csproj.CopyComplete
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Debug\DesafioVitreo.iOS.exe
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\obj\iPhone\Debug\DesafioVitreo.iOS.pdb
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Plugin.Multilingual.Abstractions.dll
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Plugin.Multilingual.Abstractions.pdb
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Plugin.Multilingual.dll
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Cards.XForms.dll
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\Syncfusion.Cards.XForms.iOS.dll
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.iOS\bin\iPhone\Debug\pt-BR\DesafioVitreo.resources.dll
