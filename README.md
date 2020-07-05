@@ -6,7 +6,7 @@ DESAFIO VITREO
 
 ## Descrição
 
-Aplicativo desenvolvido em Xamarin.Forms com XAML, trazendo algumas informações de personagens Marvel, tais como: nome, foto e descrição. 
+Aplicativo desenvolvido em Xamarin.Forms com XAML fazendo integração com a API da Marvel, trazendo algumas informações dos seus personagens, tais como: nome, foto e descrição. 
 
 ### Pré-requisitos
 
@@ -19,7 +19,7 @@ Para executar o projeto, será necessário seguir os procedimentos abaixo:
 
 ### Instalação
 
-Somente fazer um clone do repositório https://github.com/fsilva0703/DesafioVitreo/ e já com o projeto aberto no Visual Studio, atualizar alguns componentes via Nuget caso necessário.
+- Fazer um clone do repositório https://github.com/fsilva0703/DesafioVitreo/ e já com o projeto aberto no Visual Studio atualizar alguns componentes via Nuget caso necessário.
 
 Por exemplo:
 
@@ -32,53 +32,51 @@ NewtonsoftJson
 
 ## Recuros e funcionalidades
 
-- O app deverá ser exclusivamente desenvolvido em Xamarin.Forms com XAML.
+- O app foi desenvolvido exclusivamente em Xamarin.Forms com XAML utilizando os conceitos de arquiterua MVVM.
 
-- Faça uso de boas práticas de desenvolvimento
+- O APP identifica a cultura do dispositivo Mobile e faz a tradução automática.
 
-- Use conceitos de componentização e reaproveitamento de código
+- Linguagens disponíveis:
 
-- O app deverá ter:
+  - Inglês
+  - Português
 
-  - Iconização diferente do padrão xamarin
+- Boas práticas de desenvolvimento
 
-  - Uma splashscreen customizada semelhante para android e ios
+- Conceitos de componentização e reaproveitamento de código
 
-  - Deverá apresentar uma tela inicial com um filtro para pesquisa no topo com filtragem em tempo real dos personagens. Assim que entrar os personagens com imagem e nome deverá ser apresentado
+  - Projeto DesafioVitreo.Domain pode ser usado como exemplo
 
-  - Ao efetuar o filtro através da pesquisa, somente iniciar a pesquisa após 3 caracteres, iniciando o filtro da lista
+- O APP possui:
 
-  - Ao clicar em um personagem deverá enviar para uma tela de detalhes
+  - Iconização diferente do padrão xamarin, sendo assim todos os ícones foram personificados com a identificação da Marvel
 
-  - Tela de detalhes precisa ter a imagem do personagem, seu nome e sua história(descrição)
+  - Ao inicar o APP uma SplashScreen customizada é iniciada, trazendo em si uma animação com a logo da Marvel
+
+  - O APP possui uma tela inicial com um filtro para pesquisa no topo e filtragem em tempo real dos personagens. Porém ao carregar o APP, após a splashscreen uma lista de personagens já é carregada automaticamente
+
+  - Ao efetuar o filtro através da pesquisa, o mesmo somente inicia-se após 3 caracteres e automaticamente inicia o filtro da lista
+
+  - Ao clicar em um personagem na listagem você verá uma transição entre as páginas e uma leve animação no item selecionado, após será direcionado para uma tela de detalhes, onde encontrará uma breve descrição sobre o personagem selecionado.
+  
+  - Também utilizamos controle de cache para armazenar o Hash Code solicitado pela API da Marvel em cada requisição por 10 minutos. Desta forma, reutilizamos o Hash cacheado e aumentamos a performance.
 
 ## Testes Unitários
 
 Existe um projeto de teste unitário chamado DesafioVitreo.UnitTest, este faz o teste dos 3 métodos executados no aplicativo.
 
+## Versão
 
+1.0
 
-## Contributing
+## Autor
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* **Fábio de Paula Silva** - [DesafioVitreo](https://github.com/fsilva0703/DesafioVitreo)
 
-## Versioning
+## Agradecimentos
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+- Gostaria de agradecer ao Fábio Hara e ao Thiago Moreira pela oportunidade que me deram em poder participar deste projeto. Tem sido uma experiência muito satisfatória e chegar até aqui para mim é motivo de orgulho.  Agradecer também pela humildade, disponibilidade e atenção que me concederam no pouco tempo em que estivemos reunidos para falar sobre essa oportunidade. 
 
-## Authors
+## Licença
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+Não necessário
