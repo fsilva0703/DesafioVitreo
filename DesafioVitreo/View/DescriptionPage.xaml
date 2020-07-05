@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             xmlns:local1="clr-namespace:DesafioVitreo.Helper" 
+             BackgroundColor="#ED1D24"
+             x:Class="DesafioVitreo.View.DescriptionPage"
+             Title="New Item">
+
+    
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolBar" Text="Voltar" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Behaviors>
+        <local1:NavigationBehavior/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local1:StringEmptyConverter x:Key="stringEmptyConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+
+            <StackLayout  Margin="20">
+                <Image Source="logoMarvel"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="180" HeightRequest="50"/>
+            </StackLayout>
+
+            <cards:SfCardLayout BindableLayout.ItemsSource="{Binding Items}" Padding="0,30,0,30" HeightRequest="400" BackgroundColor="#ED1D24">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+
+                        <cards:SfCardView
+                            Margin="15" 
+                            BorderColor="#D1D1D1"
+                            BorderWidth="1"
+                            CornerRadius="7"
+                             Padding="0,0,0,0"
+                            FadeOutOnSwiping="true">
+
+                            <Grid HorizontalOptions="FillAndExpand">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Orientation="Horizontal">
+                                    
+                                    <Image x:Name="avatarImage"
+                               WidthRequest="100" HeightRequest="100" HorizontalOptions="CenterAndExpand">
+                                    <Image.Source>
+                                        <UriImageSource Uri="{Binding Avatar}" 
+			                                CacheValidity="1" 
+			                                CachingEnabled="true"/>
+                                    </Image.Source>
+                                </Image>
+                                    <ActivityIndicator HorizontalOptions="Center"  Color="#ED1D24" BindingContext="{x:Reference avatarImage}" IsRunning="{Binding IsLoading}"/>
+                                    <Frame Grid.Row="0" >
+                                        <Label 
+                                        Margin="10,0,0,0"
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        HorizontalOptions="StartAndExpand"
+                                        x:Name="NameLabel" Text="{Binding Name}" 
+                                        TextColor="Black"
+                                        VerticalOptions="Center"/>
+                                    </Frame>
+                                </StackLayout>
+
+
+                                <Label Grid.Row="1" x:Name="DescriptionLabel" Text="{Binding Description, Converter={StaticResource stringEmptyConverter}, ConverterParameter='is not empty'}" HorizontalOptions="Center" TextColor="Teal" MaxLines="100" FontSize="18"/>
+
+                                
+                            </Grid>
+
+                        </cards:SfCardView>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </cards:SfCardLayout>
+
+            <StackLayout Orientation="Horizontal" Padding="0,0,0,0">
+                <Frame  CornerRadius="30" 
+                    HasShadow="True"
+                    IsClippedToBounds="True"
+                    OutlineColor="Gray" 
+                    Padding="0,0,0,0"
+                    WidthRequest="200" HorizontalOptions="CenterAndExpand">
+
+                    <Button x:Name="backButton"
+                        BackgroundColor="White"
+                        Text="{local1:Translate backButton}"
+                        TextColor="Black"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Center">
+                    </Button>
+                </Frame>
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

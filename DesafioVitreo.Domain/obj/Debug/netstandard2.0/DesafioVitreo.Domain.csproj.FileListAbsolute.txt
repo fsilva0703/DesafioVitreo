@@ -1,0 +1,10 @@
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\bin\Debug\netstandard2.0\DesafioVitreo.Domain.deps.json
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\bin\Debug\netstandard2.0\DesafioVitreo.Domain.dll
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\bin\Debug\netstandard2.0\DesafioVitreo.Domain.pdb
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\DesafioVitreo.Domain.AssemblyInfoInputs.cache
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\DesafioVitreo.Domain.AssemblyInfo.cs
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\DesafioVitreo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\DesafioVitreo.Domain.dll
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\DesafioVitreo.Domain.pdb
+C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Domain\obj\Debug\netstandard2.0\DesafioVitreo.Domain.csprojAssemblyReference.cache

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sync="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms" 
+             xmlns:local1="clr-namespace:DesafioVitreo.Helper" 
+             x:Class="DesafioVitreo.MainPage">
+
+    <ContentPage.Behaviors>
+        <local1:Behavior/>
+    </ContentPage.Behaviors>
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" Padding="0,0,0,0">
+            <Image Source="logoMarvel"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="180" HeightRequest="50"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+        <ContentPage.Content>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+            <SearchBar x:Name="filterText" Placeholder="{local1:Translate searchBar}" />
+
+            <ActivityIndicator Grid.Row="1" x:Name="waitActivityIndicator"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand"
+                                       Color="#ED1D24" IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}">
+            </ActivityIndicator>
+
+            <sync:SfListView x:Name="listView" ItemsSource="{Binding Items}" Grid.Row="1" ItemSpacing="0,5,0,5" BackgroundColor="Transparent" ItemSize="100">
+                    <sync:SfListView.ItemTemplate>
+                        <DataTemplate x:Name="ItemTemplate" >
+                            <Frame OutlineColor="#b3b3b3" Padding="10" Margin="10,0,10,0" CornerRadius="10">
+                                <Grid BackgroundColor="White" Padding="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Image x:Name="avatarImage"
+                                    Grid.Row="0" Grid.Column="0"
+                                    WidthRequest="120" HeightRequest="90" HorizontalOptions="Start" VerticalOptions="Center">
+                                    <Image.Source>
+                                        <UriImageSource Uri="{Binding Avatar}" 
+			                                CacheValidity="1" 
+			                                CachingEnabled="true"/>
+                                    </Image.Source>
+                                </Image>
+                                <ActivityIndicator Color="#ED1D24" Scale="0.5" BindingContext="{x:Reference avatarImage}" IsRunning="{Binding IsLoading}"/>
+
+                                <Frame Grid.Row="0" Grid.Column="1" Padding="10,10,10,10" BackgroundColor="#FFE7E8E9" HorizontalOptions="Fill">
+                                    <Label x:Name="NameLabel" Text="{Binding Name}" TextColor="Teal" FontSize="Title"/>
+                                </Frame>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </sync:SfListView.ItemTemplate>
+                </sync:SfListView>
+
+            </Grid>
+        </ContentPage.Content>
+
+
+</ContentPage>

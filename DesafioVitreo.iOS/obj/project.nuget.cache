@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "vHWTqte8+nAT0cmdxF0uFli9SkaZ+mxbt7Hn0fk/veJgukrj0QuIwrAvj7EBq2++lZZJ0wuNuloCkKn1WojDVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fabio Silva\\Source\\Repos\\DesafioVitreo\\DesafioVitreo.iOS\\DesafioVitreo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.5\\microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.5\\microsoft.extensions.caching.memory.3.1.5.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.5\\microsoft.extensions.dependencyinjection.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.5\\microsoft.extensions.logging.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.extensions.options\\3.1.5\\microsoft.extensions.options.3.1.5.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\plugin.multilingual\\1.1.6-beta\\plugin.multilingual.1.1.6-beta.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\syncfusion.licensing\\18.1.0.59\\syncfusion.licensing.18.1.0.59.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\syncfusion.xamarin.cards\\18.1.0.59\\syncfusion.xamarin.cards.18.1.0.59.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\syncfusion.xamarin.core\\18.1.0.59\\syncfusion.xamarin.core.18.1.0.59.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\syncfusion.xamarin.datasource\\18.1.0.59\\syncfusion.xamarin.datasource.18.1.0.59.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\18.1.0.59\\syncfusion.xamarin.gridcommon.18.1.0.59.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\syncfusion.xamarin.sflistview\\18.1.0.59\\syncfusion.xamarin.sflistview.18.1.0.59.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\Fabio Silva\\.nuget\\packages\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
