@@ -40,6 +40,7 @@ NewtonsoftJson
 
   - Inglês
   - Português
+  - ** Tradução não estendida aos objetos retornados pela API da Marvel (Nome e Descrição) **.
 
 - Boas práticas de desenvolvimento
 
