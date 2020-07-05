@@ -65,7 +65,12 @@ NewtonsoftJson
 
 ## Testes Unitários
 
-Existe um projeto de teste unitário chamado DesafioVitreo.UnitTest, este faz o teste dos 3 métodos executados no aplicativo.
+- Existe um projeto de teste unitário chamado DesafioVitreo.UnitTest, este faz o teste dos 3 métodos executados no aplicativo.
+
+  - ValidateGeraHash()
+  - ValidateListCharactersAsync()
+  - ValidateGetCharacterByIdAsync()
+  
 
 ## Versão
 
