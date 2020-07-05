@@ -19,7 +19,7 @@ Para executar o projeto, será necessário seguir os procedimentos abaixo:
 
 ### Instalação
 
-A step by step series of examples that tell you how to get a development env running
+Somente fazer um clone do repositório https://github.com/fsilva0703/DesafioVitreo/ e já com o projeto aberto no Visual Studio, atualizar alguns componentes via Nuget caso necessário.
 
 Say what the step will be
 
