@@ -43,21 +43,23 @@ NewtonsoftJson
 
 - Boas práticas de desenvolvimento
 
+- Clean code.
+
 - Conceitos de componentização e reaproveitamento de código
 
   - Projeto DesafioVitreo.Domain pode ser usado como exemplo
 
 - O APP possui:
 
-  - Iconização diferente do padrão xamarin, sendo assim todos os ícones foram personificados com a identificação da Marvel
+  - Iconização diferente do padrão Xamarin, sendo assim, todos os ícones foram personificados com a identificação da Marvel
 
   - Ao inicar o APP uma SplashScreen customizada é iniciada, trazendo em si uma animação com a logo da Marvel
 
-  - O APP possui uma tela inicial com um filtro para pesquisa no topo e filtragem em tempo real dos personagens. Porém ao carregar o APP, após a splashscreen uma lista de personagens já é carregada automaticamente
+  - O APP possui uma tela inicial com um filtro para pesquisa no topo e filtragem em tempo real dos personagens. Porém, ao carregar o APP, após a splashscreen uma lista de personagens já é carregada automaticamente
 
-  - Ao efetuar o filtro através da pesquisa, o mesmo somente inicia-se após 3 caracteres e automaticamente inicia o filtro da lista
+  - Ao efetuar o filtro através da pesquisa, o mesmo somente inicia-se após serem digitados 3 caracteres e a partir daí automaticamente inicia-se o filtro da lista
 
-  - Ao clicar em um personagem na listagem você verá uma transição entre as páginas e uma leve animação no item selecionado, após será direcionado para uma tela de detalhes, onde encontrará uma breve descrição sobre o personagem selecionado.
+  - Ao clicar em um personagem na listagem você verá uma transição entre as páginas e uma leve animação no item selecionado, após isso, será direcionado para uma tela de detalhes, onde encontrará uma breve descrição sobre o personagem selecionado.
   
   - Também utilizamos controle de cache para armazenar o Hash Code solicitado pela API da Marvel em cada requisição por 10 minutos. Desta forma, reutilizamos o Hash cacheado e aumentamos a performance.
 
