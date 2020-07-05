@@ -30,35 +30,33 @@ Plugin Multilingual
 NewtonsoftJson
 ```
 
+## Recuros e funcionalidades
+
+- O app deverá ser exclusivamente desenvolvido em Xamarin.Forms com XAML.
+
+- Faça uso de boas práticas de desenvolvimento
+
+- Use conceitos de componentização e reaproveitamento de código
+
+- O app deverá ter:
+
+  - Iconização diferente do padrão xamarin
+
+  - Uma splashscreen customizada semelhante para android e ios
+
+  - Deverá apresentar uma tela inicial com um filtro para pesquisa no topo com filtragem em tempo real dos personagens. Assim que entrar os personagens com imagem e nome deverá ser apresentado
+
+  - Ao efetuar o filtro através da pesquisa, somente iniciar a pesquisa após 3 caracteres, iniciando o filtro da lista
+
+  - Ao clicar em um personagem deverá enviar para uma tela de detalhes
+
+  - Tela de detalhes precisa ter a imagem do personagem, seu nome e sua história(descrição)
+
 ## Testes Unitários
 
 Existe um projeto de teste unitário chamado DesafioVitreo.UnitTest, este faz o teste dos 3 métodos executados no aplicativo.
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
