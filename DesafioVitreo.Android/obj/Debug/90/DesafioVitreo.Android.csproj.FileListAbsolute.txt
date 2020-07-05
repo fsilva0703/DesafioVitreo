@@ -514,10 +514,6 @@ C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\android\assets\Microsoft.Extensions.Options.dll
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\res\drawable\iconmarvel.png
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\res\mipmap-hdpi\iconmarvel.png
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\res\mipmap-mdpi\ic_launcher.png
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\res\mipmap-xhdpi\ic_launcher.png
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher.png
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\flata\AAAF687D7DB801D0.stamp
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\flata\A75481E5111EAC61.stamp
 C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Android\obj\Debug\90\flata\ABF923C3995B4567.stamp

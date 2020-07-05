@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="DesafioVitreo.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/iconmarvel" android:debuggable="true">
+  <application android:label="DesafioVitreo.Android" android:usesCleartextTraffic="true" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/iconmarvel" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/iconmarvel" android:label="DesafioVitreo" android:theme="@style/MainTheme" android:name="crc64e0c2b99c5ced72da.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

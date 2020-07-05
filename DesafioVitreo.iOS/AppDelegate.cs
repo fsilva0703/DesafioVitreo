@@ -26,11 +26,8 @@ namespace DesafioVitreo.iOS
 
             LoadApplication(new App());
 
-            UIView statusBar = UIApplication.SharedApplication.ValueForKey(new NSString("statusBar")) as UIView;
-            if (statusBar != null && statusBar.RespondsToSelector(new ObjCRuntime.Selector("setBackgroundColor:")))
-            {
-                statusBar.BackgroundColor = Color.FromHex("#ED1D24").ToUIColor();
-            }
+            UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.LightContent, false);
+            UIApplication.SharedApplication.SetStatusBarHidden(false, false);
 
             return base.FinishedLaunching(app, options);
         }

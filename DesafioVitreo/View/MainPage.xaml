@@ -43,19 +43,27 @@
                                     <ColumnDefinition></ColumnDefinition>
                                     <ColumnDefinition></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
-                                <Image x:Name="avatarImage"
+
+                                <Frame CornerRadius="150" 
+                                                    HorizontalOptions="Center" 
+                                                    VerticalOptions="Start"
+                                                    HasShadow="True"
+                                                    OutlineColor="Gray" 
+                                                    Padding="0,0,0,0">
+                                    <Image x:Name="avatarImage"
                                     Grid.Row="0" Grid.Column="0"
-                                    WidthRequest="120" HeightRequest="90" HorizontalOptions="Start" VerticalOptions="Center">
-                                    <Image.Source>
-                                        <UriImageSource Uri="{Binding Avatar}" 
+                                    WidthRequest="60" HeightRequest="60" HorizontalOptions="Start" VerticalOptions="Center">
+                                        <Image.Source>
+                                            <UriImageSource Uri="{Binding Avatar}" 
 			                                CacheValidity="1" 
 			                                CachingEnabled="true"/>
-                                    </Image.Source>
-                                </Image>
+                                        </Image.Source>
+                                    </Image>
+                                </Frame>
                                 <ActivityIndicator Color="#ED1D24" Scale="0.5" BindingContext="{x:Reference avatarImage}" IsRunning="{Binding IsLoading}"/>
 
                                 <Frame Grid.Row="0" Grid.Column="1" Padding="10,10,10,10" BackgroundColor="#FFE7E8E9" HorizontalOptions="Fill">
-                                    <Label x:Name="NameLabel" Text="{Binding Name}" TextColor="Teal" FontSize="Title"/>
+                                    <Label x:Name="NameLabel" Text="{Binding Name}" TextColor="Teal" FontSize="Medium"/>
                                 </Frame>
                                 </Grid>
                             </Frame>

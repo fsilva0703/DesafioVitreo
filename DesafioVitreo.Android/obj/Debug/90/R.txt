@@ -1310,11 +1310,10 @@ int layout shellcontent 0x7f0b0043
 int layout support_simple_spinner_dropdown_item 0x7f0b0044
 int layout tabbar 0x7f0b0045
 int layout toolbar 0x7f0b0046
-int mipmap ic_launcher 0x7f0c0000
-int mipmap icon 0x7f0c0001
-int mipmap icon_round 0x7f0c0002
-int mipmap iconmarvel 0x7f0c0003
-int mipmap launcher_foreground 0x7f0c0004
+int mipmap icon 0x7f0c0000
+int mipmap icon_round 0x7f0c0001
+int mipmap iconmarvel 0x7f0c0002
+int mipmap launcher_foreground 0x7f0c0003
 int string ApplicationName 0x7f0d0000
 int string Hello 0x7f0d0001
 int string Load_More 0x7f0d0002
