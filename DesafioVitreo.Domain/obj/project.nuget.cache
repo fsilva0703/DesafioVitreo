@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S4hMuo6hCx3ImBS+A4eXHDH+CAdiJ3ZY522EOb3wppKKN0FgoZgBVehpTFcDUmpFunnuh5hGytI9gicKlEv2zw==",
+  "dgSpecHash": "y785FLnk9fxI8oZho0PZIY0LGb0DIJxNjjQNk2bij7EB5KxI5DY8LvCBmR0KTY2iaxaUOgHvCmMBuYSiEoCH7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fabio Silva\\Source\\Repos\\DesafioVitreo\\DesafioVitreo.Domain\\DesafioVitreo.Domain.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,6 @@
     "C:\\Users\\Fabio Silva\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\Fabio Silva\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Fabio Silva\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\Fabio Silva\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",

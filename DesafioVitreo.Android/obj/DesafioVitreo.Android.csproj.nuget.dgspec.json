@@ -132,10 +132,6 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.495, )"
@@ -208,6 +204,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             },
             "Plugin.Multilingual": {
               "target": "Package",

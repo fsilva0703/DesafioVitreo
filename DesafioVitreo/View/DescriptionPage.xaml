@@ -30,17 +30,17 @@
         <StackLayout HorizontalOptions="CenterAndExpand">
 
             <StackLayout  Margin="20">
-                <Image Source="logoMarvel"
+                <Image Source="logoMarvel" Margin="10"
                    HorizontalOptions="CenterAndExpand"
                    WidthRequest="300" HeightRequest="50"/>
             </StackLayout>
 
-            <cards:SfCardLayout BindableLayout.ItemsSource="{Binding Items}" Padding="0,30,0,30" HeightRequest="400" BackgroundColor="#ED1D24">
+            <cards:SfCardLayout BindableLayout.ItemsSource="{Binding Items}" Padding="0,10,0,30" HeightRequest="400" BackgroundColor="#ED1D24">
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
 
                         <cards:SfCardView
-                            Margin="15" 
+                            Margin="5" 
                             BorderColor="#D1D1D1"
                             BorderWidth="1"
                             CornerRadius="7"
@@ -77,7 +77,7 @@
                                 </StackLayout>
 
 
-                                <Label Grid.Row="1" x:Name="DescriptionLabel" Text="{Binding Description, Converter={StaticResource stringEmptyConverter}, ConverterParameter='is not empty'}" HorizontalOptions="Center" TextColor="Teal" MaxLines="100" FontSize="18"/>
+                                <Label Grid.Row="1" x:Name="DescriptionLabel" Text="{Binding Description, Converter={StaticResource stringEmptyConverter}, ConverterParameter='is not empty'}" HorizontalOptions="Center" TextColor="Black" Padding="10,0,0,5" MaxLines="100" FontSize="16"/>
 
 
                             </Grid>

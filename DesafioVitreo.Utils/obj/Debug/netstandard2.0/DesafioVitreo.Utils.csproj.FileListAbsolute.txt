@@ -1,8 +1,0 @@
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\bin\Debug\netstandard2.0\DesafioVitreo.Utils.deps.json
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\bin\Debug\netstandard2.0\DesafioVitreo.Utils.dll
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\bin\Debug\netstandard2.0\DesafioVitreo.Domain.dll
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\bin\Debug\netstandard2.0\DesafioVitreo.Domain.pdb
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\obj\Debug\netstandard2.0\DesafioVitreo.Utils.csprojAssemblyReference.cache
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\obj\Debug\netstandard2.0\DesafioVitreo.Utils.AssemblyInfoInputs.cache
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\obj\Debug\netstandard2.0\DesafioVitreo.Utils.AssemblyInfo.cs
-C:\Users\Fabio Silva\Source\Repos\DesafioVitreo\DesafioVitreo.Utils\obj\Debug\netstandard2.0\DesafioVitreo.Utils.csproj.CopyComplete

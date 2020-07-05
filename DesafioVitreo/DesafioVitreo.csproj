@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Plugin.Multilingual" Version="1.1.6-beta" />
     <PackageReference Include="Syncfusion.Xamarin.Cards" Version="18.1.0.59" />
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="18.1.0.59" />
