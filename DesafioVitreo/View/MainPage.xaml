@@ -60,11 +60,6 @@
 			                                CachingEnabled="true"/>
                                         </Image.Source>
                                     </Image>
-                                    <Frame.Padding>
-                                        <OnPlatform x:TypeArguments="Thickness">
-                                            <On Platform="Android" Value="0, 0, 0, 0"/>
-                                        </OnPlatform>
-                                    </Frame.Padding>
                                     <Frame.CornerRadius>
                                         <OnPlatform x:TypeArguments="x:Single">
                                             <On Platform="iOS" Value="0"/>
