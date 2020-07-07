@@ -44,9 +44,10 @@
                                     <ColumnDefinition></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
 
-                                <Frame CornerRadius="150" 
+                                <Frame 
+                                    CornerRadius="150" IsClippedToBounds="True" 
                                                     HorizontalOptions="Center" 
-                                                    VerticalOptions="Start"
+                                                    VerticalOptions="Center"
                                                     HasShadow="True"
                                                     OutlineColor="Gray" 
                                                     Padding="0,0,0,0">
@@ -59,13 +60,26 @@
 			                                CachingEnabled="true"/>
                                         </Image.Source>
                                     </Image>
+                                    <Frame.Padding>
+                                        <OnPlatform x:TypeArguments="Thickness">
+                                            <On Platform="Android" Value="0, 0, 0, 0"/>
+                                        </OnPlatform>
+                                    </Frame.Padding>
+                                    <Frame.CornerRadius>
+                                        <OnPlatform x:TypeArguments="x:Single">
+                                            <On Platform="iOS" Value="0"/>
+                                            <On Platform="Android" Value="150"/>
+                                        </OnPlatform>
+                                    </Frame.CornerRadius>
+
                                 </Frame>
                                 <ActivityIndicator Color="#ED1D24" Scale="0.5" BindingContext="{x:Reference avatarImage}" IsRunning="{Binding IsLoading}"/>
 
                                 <Frame Grid.Row="0" Grid.Column="1" Padding="10,10,10,10" BackgroundColor="#FFE7E8E9" HorizontalOptions="Fill">
                                     <Label x:Name="NameLabel" Text="{Binding Name}" TextColor="Teal" FontSize="Medium"/>
                                 </Frame>
-                                </Grid>
+
+                            </Grid>
                             </Frame>
                         </DataTemplate>
                     </sync:SfListView.ItemTemplate>
